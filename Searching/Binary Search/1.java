@@ -25,7 +25,7 @@ class BinarySearch {
 
 		// We reach here when element is not present
 		// in array
-		return 0
+		return -1;
 	}
 
 	// Driver method to test above
