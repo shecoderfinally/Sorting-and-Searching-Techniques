@@ -7,7 +7,7 @@ This is a Hacktoberfest-Repository,feel free to make your conttributions here th
 A month-long celebration from October 1st - 31st sponsored by Digital Ocean and GitHub to get people involved in Open Source. Create your very first pull request to any public repository on GitHub and contribute to the open source developer community.
 👉 https://hacktoberfest.digitalocean.com/ 👈
 
-👕 ## HacktoberFest- Get your Free T-shirt Now.
+## 👕 HacktoberFest- Get your Free T-shirt Now.
 Create your first Pull Request 🔥(PR).
 
 ### Steps to Make your 1st PR Contribution:
