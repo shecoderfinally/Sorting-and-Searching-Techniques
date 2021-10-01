@@ -9,10 +9,7 @@ https://hacktoberfest.digitalocean.com/
 ## HacktoberFest- Get your Free T-shirt Now.
 Create your first Pull Request 🔥(PR).
 
-👍 Awesome! How Can I Contribute?
-It's very easy. Don't need to be an expert in coding. Follow the below steps you need to create your -(maybe)- EXAMPLE first pull request.
-
-### 
+### Steps to Make your 1st PR Contribution:
 Fork this repository by click the Fork button in the top right of this page.
 Click on Add File button and select Create new file button.
 1) Set the file name with (FileName).java (FileName).python or (FileName).c 
