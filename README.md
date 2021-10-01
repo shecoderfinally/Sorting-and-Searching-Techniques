@@ -1,4 +1,5 @@
-https://hacktoberfest.digitalocean.com/twitter-card.png
+<img src="https://hacktoberfest.digitalocean.com/twitter-card.png">
+
 # HacktoberFest Repository (🌟 Star this repository!🌟)
 This is a Hacktoberfest-Repository,feel free to make your conttributions here this month to win your swagss!!Happy Coding! :)
 
