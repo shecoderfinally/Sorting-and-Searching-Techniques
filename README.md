@@ -11,7 +11,7 @@ A month-long celebration from October 1st - 31st sponsored by Digital Ocean and 
 ## 👕 HacktoberFest- Get your Free T-shirt Now.
 Create your first Pull Request 🔥(PR).
 
-### Steps to Make your 1st PR Contribution:
+### 👣👣Steps to Make your 1st PR Contribution:
 Fork this repository by click the Fork button in the top right of this page.
 Click on Add File button and select Create new file button.
 1) Set the file name with (FileName).java (FileName).py or (FileName).c 
