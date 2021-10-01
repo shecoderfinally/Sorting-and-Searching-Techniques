@@ -38,5 +38,5 @@ class InsertionSort {
 
 		printArray(arr);
 	}
-} /* This code is contributed by Rajat Mishra. */
+} 
 
