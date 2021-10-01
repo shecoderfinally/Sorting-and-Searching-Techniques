@@ -1,0 +1,67 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define rep(i,a,b)  for(int i = a; i < b; i++)
+#define repr(i,a,b)  for(int i = a; i >= b; i--)
+#define Rep(i,a,b)  for(int i = a; i <= b; i++)
+#define ff          first
+#define ss          second
+#define int         long long
+#define pb          push_back
+#define mp          make_pair
+#define pii         pair<int,int>
+#define vi          vector <int>
+#define mii         map <int,int>
+#define sz(x) ((int)(x).size())
+#define mxhi        priority_queue<int>
+#define mnhi        priority_queue<int,vi,greater<int> >
+#define mod         1000000007
+#define setbits(x)  __builtin_popcountll(x)
+#define zrobits(x)  __builtin_ctzll(x)   //no of zero bits befor the first set bits
+#define inf         1e18
+#define ps(x,y)     fixed<<setprecision(y)<<x
+#define w(x)        int x; cin>>x; while(x--)
+#define endl        '\n'
+
+int gcd(int a, int b) { return (b == 0) ? a : gcd(b, a % b); }
+int lcm(int a, int b) { return (a / gcd(a, b)) * b; }
+void i_n()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+#ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+#endif
+}
+int helper(int arr[], int l, int r) {
+    int pivot = rand() % (r - l + 1);
+    // int pivot = (l + r) / 2 - l;
+    swap(arr[l + pivot], arr[r]);
+    int pivotele = arr[r];
+    int i = l, j = l;
+    while (j <= r - 1) {
+        if (arr[j] <= pivotele) {
+            swap(arr[i++], arr[j]);
+        }
+        j++;
+    }
+    swap(arr[i], arr[r]);
+    return i;
+}
+void quicksort(int arr[], int l, int r) {
+    if (l >= r) {
+        return;
+    }
+    int pivot = helper(arr, l, r);
+    quicksort(arr, l, pivot - 1);
+    quicksort(arr, pivot + 1, r);
+}
+int32_t main() {
+    i_n();
+    int arr[8] = {5, 9, 3, 1, 11, 4, 7, 2};
+    quicksort(arr, 0, 7);
+    rep(i, 0, 8) {
+        cout << arr[i] << " ";
+    }
+}
