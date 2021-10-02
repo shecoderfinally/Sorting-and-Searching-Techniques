@@ -3,7 +3,7 @@
 # HacktoberFest Repository (🌟 Star this repository!🌟)
 This is a Hacktoberfest-Repository,feel free to make your conttributions here this month to win your swagss!!Happy Coding! :)
 
-## What is Hacktoberfest?
+## 💡 What is Hacktoberfest?
 A month-long celebration from October 1st - 31st sponsored by Digital Ocean and GitHub to get people involved in Open Source. Create your very first pull request to any public repository on GitHub and contribute to the open source developer community.
 
 👉 <a href="https://hacktoberfest.digitalocean.com/">Official HacktoberFest Page</a> 👈
