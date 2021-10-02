@@ -16,6 +16,7 @@ Create your first Pull Request 🔥(PR).
 2) Click on Add File button and select Create new file button in your personal copy of this repository.
 1) Set the file name with (FileName).java (FileName).py or (FileName).c or (FileName).cpp or (FileName).cs or (FileName).kt or (FileName).js
 2) Then write your code and hit commit.
-3) Then click on pull request tab 
+3) Then click on pull request tab. Refer <a hrc="https://github.com/shecoderfinally/Sorting-and-Searching-Techniques/issues/122">guidelines</a>
 4) Generate a new Pull Request and Make the contribution.
 5) Happy Coding! :)
+
