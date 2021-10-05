@@ -57,8 +57,8 @@ public:
             cout << post[i].first << "," << post[i].second << "     " ;
         }
         cout << endl ; 
-     
-        
+    */  
+    
         for(int i = 0 ; i < n ; ++i){
             ans[i] = pre[i].first + post[i].first ;
         }
