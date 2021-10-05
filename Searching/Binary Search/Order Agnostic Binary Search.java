@@ -1,3 +1,4 @@
+// Given a key and an array whose order of sorting is not known. Find the position of the key using binary search. 
 public class Main{
         static int bsearch(int arr[],int key){
         int start=0;
