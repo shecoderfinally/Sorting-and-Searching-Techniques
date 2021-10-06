@@ -10,11 +10,11 @@ This program gives the smallest multiple of all natural numbers up until HIGHER_
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class LCM_UNTIL_X {
+public class LCM_with_higherbound {
     static final Scanner in = new Scanner(System.in);
     
     public static void main(String[] args) {
-	      int lcm = 1;
+	int lcm = 1;
         int index = 2;
         final int HIGHER_BOUND = in.nextInt();
         var listOfFactors = new ArrayList<Integer>();
