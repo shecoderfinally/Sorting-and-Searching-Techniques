@@ -34,5 +34,5 @@ public class LCM_with_higherbound {
             index++;
         }
         System.out.println(lcm);
-	  }
+    }    
 }
