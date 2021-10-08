@@ -50,6 +50,7 @@ public:
         return ans ;
     }*/
 
+    // Another Solution found on Discussion Tab
     vector<vector<int>> groupThePeople(vector<int>& gz) {
         vector<vector<int>> res, groups(gz.size() + 1);
         for (auto i = 0; i < gz.size(); ++i) {
