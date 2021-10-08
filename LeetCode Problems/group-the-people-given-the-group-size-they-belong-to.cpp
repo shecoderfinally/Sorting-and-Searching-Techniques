@@ -5,7 +5,7 @@ public:
 
     // Naive Approach : Test Case passes 
     // Learning : intialise extra space in data structure (and loops) to avoid buffer-overflow ( Example in number 9 , 26)
-    vector<vector<int>> groupThePeople(vector<int>& gs) {
+    /*vector<vector<int>> groupThePeople(vector<int>& gs) {
         vector<vector<int> > ans ;
         vector<int> tmp ;
         vector< pair<int , vector<int> > > freq(gs.size() + 1, {0, {}} ) ;
@@ -39,7 +39,7 @@ public:
                     
                     /*for(auto s : tmp){
                         cout << "TMP " << s << endl ; 
-                    }*/
+                    //}
                     
                     ans.push_back(tmp) ;
                     tmp.clear();
@@ -48,5 +48,17 @@ public:
             }
         }
         return ans ;
-    }
+    }*/
+
+    vector<vector<int>> groupThePeople(vector<int>& gz) {
+        vector<vector<int>> res, groups(gz.size() + 1);
+        for (auto i = 0; i < gz.size(); ++i) {
+            groups[gz[i]].push_back(i);
+            if (groups[gz[i]].size() == gz[i]) {
+                res.push_back({});
+                swap(res.back(), groups[gz[i]]);
+            }
+            }
+        return res;
+     }
 };
